@@ -12,6 +12,9 @@ public class TreeMagics {
 
 		commonTreeTravels(node);
 
+		/*
+		 * https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
+		 */
 		System.out.println("Printing right view of tree!!!");
 		ViewsOfTree.printRightViewOfTree(node);
 		System.out.println("Printing left view of tree!!!");

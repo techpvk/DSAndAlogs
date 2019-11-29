@@ -1,14 +1,13 @@
 package com.exp.list;
 
-public class Node {
+public class LNode {
 
 	private int value;
-	private Node next;
+	private LNode next;
 	
-	public Node(int value, Node next) {
+	public LNode(int value) {
 		super();
 		this.value = value;
-		this.next = next;
 	}
 	public int getValue() {
 		return value;
@@ -16,10 +15,10 @@ public class Node {
 	public void setValue(int value) {
 		this.value = value;
 	}
-	public Node getNext() {
+	public LNode getNext() {
 		return next;
 	}
-	public void setNext(Node next) {
+	public void setNext(LNode next) {
 		this.next = next;
 	}
 	
