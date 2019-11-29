@@ -1,4 +1,4 @@
-package com.exp.wallmart.question;
+package com.exp.utils;
 
 import com.exp.tree.Node;
 
