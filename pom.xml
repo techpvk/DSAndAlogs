@@ -27,5 +27,6 @@
   <modules>
     <module>DS</module>
     <module>ALGO</module>
+    <module>EXP</module>
   </modules>
 </project>
